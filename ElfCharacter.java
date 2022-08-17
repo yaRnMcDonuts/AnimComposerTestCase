@@ -12,13 +12,6 @@ import com.jme3.anim.tween.Tween;
 import com.jme3.anim.tween.Tweens;
 import com.jme3.anim.tween.action.Action;
 import com.jme3.app.SimpleApplication;
-import com.jme3.bullet.BulletAppState;
-import com.jme3.bullet.animation.CenterHeuristic;
-import com.jme3.bullet.animation.DynamicAnimControl;
-import com.jme3.bullet.animation.LinkConfig;
-import com.jme3.bullet.animation.MassHeuristic;
-import com.jme3.bullet.animation.RangeOfMotion;
-import com.jme3.bullet.animation.ShapeHeuristic;
 import com.jme3.math.Vector3f;
 import com.jme3.scene.Spatial;
 

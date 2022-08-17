@@ -84,6 +84,14 @@ public class ElfCharacter {
         animComposer.removeCurrentAction("upperBody");
         
         animComposer.setCurrentAction("ladyWalk", "upperBody");
+        
+        
+        
+        //this code attempts to make the upper body's walk animation sync back up with the lower body walk animation, but it breaks the smooth transitioning for some reason... (also setTime() needed to be app.enqueued to next frame otherwise it does nothing and animations are still out of sync...)       
+//        app.enqueue(() ->{
+//            double currentAnimTimeOnLowerBody = animComposer.getTime("lowerBody");
+//            animComposer.setTime("upperBody", currentAnimTimeOnLowerBody);
+//        });
     }
     
 
